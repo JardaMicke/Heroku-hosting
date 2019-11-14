@@ -1,0 +1,17 @@
+﻿@using FoxClub.Services
+@using FoxClub.Models
+@{
+    ViewData["Title"] = "Login";
+}
+    <h1 align="center">Welcomme to Programmer Fox Club</h1>
+        
+    
+        <h2 align="center">Please provide name, so you can associate it to your pet!</h2>
+        <form action="/Check" method="POST">
+            <p align="center">
+
+                <label for="name">Fox name:</label>
+                <input name="name" type="text" id="name">
+                <button type="submit" class="myButton">GO</button>
+            </p>
+        </form>
